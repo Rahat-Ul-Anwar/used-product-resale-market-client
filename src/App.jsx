@@ -1,12 +1,10 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+
 import { RouterProvider } from "react-router-dom";
 import { router } from "./Routes/Routes/Routes";
 
 function App() {
   return (
-    <div className="App">
+    <div className="max-w-screen-xl mx-auto">
     
    <RouterProvider router={router}></RouterProvider>
 
