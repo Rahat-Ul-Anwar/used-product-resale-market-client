@@ -44,7 +44,7 @@ const Login = () => {
           
             <input type="submit" value="LOGIN" className="btn btn-primary input-bordered w-full" />
               </form>
-              <p>New to the guitar market <Link to='/register'>Sign Up</Link></p> 
+              <p className="text-center">New to the guitar market <Link to='/register'className="text-cyan-400" >Sign Up</Link></p> 
               <div className="divider">OR</div>
               <button className="btn btn-outline font-bold input-bordered w-full">CONTINUE WITH GOOGLE</button>
       </div>
