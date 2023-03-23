@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row">
         <img src={guitar} className="md:w-1/2 rounded-lg shadow-2xl" />
         <div className="md:w-1/2 ml-10">
-          <h1 className="text-5xl font-bold">Strings & Things: Your One-Stop Guitar Shop!</h1>
+          <h1 className="text-4xl font-bold">Strings & Things: Your One-Stop Guitar Shop!</h1>
           <p className="py-6">
             Find your perfect sound and express your musical creativity with our
             wide selection of high-quality guitars at our guitar shop. From
